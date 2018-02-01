@@ -1,2 +1,3 @@
 # sampleGitRepo
-The published version of sampleGitRepo-src
+
+This is a sample repo used to test automated Git operations!

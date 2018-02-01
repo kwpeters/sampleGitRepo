@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/kwpeters/.nvm/versions/node/v6.11.1/bin/node',
+1 verbose cli   '/Users/kwpeters/.nvm/versions/node/v6.11.1/bin/npm',
+1 verbose cli   'pack' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.1
+4 silly cache add args [ '.', null ]
+5 verbose cache add spec .
+6 silly cache add parsed spec Result {
+6 silly cache add   raw: '.',
+6 silly cache add   scope: null,
+6 silly cache add   escapedName: null,
+6 silly cache add   name: null,
+6 silly cache add   rawSpec: '.',
+6 silly cache add   spec: '/Users/kwpeters/dev/sampleGitRepo-src',
+6 silly cache add   type: 'directory' }
+7 verbose addLocalDirectory /Users/kwpeters/.npm/sampleGitRepo-src/1.2.3/package.tgz not in flight; packing
+8 verbose correctMkdir /Users/kwpeters/.npm correctMkdir not in flight; initializing
+9 info lifecycle sampleGitRepo-src@1.2.3~prepublish: sampleGitRepo-src@1.2.3
+10 silly lifecycle sampleGitRepo-src@1.2.3~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/Users/kwpeters/.npm/sampleGitRepo-src/1.2.3/package.tgz',
+11 verbose tar pack   '/Users/kwpeters/dev/sampleGitRepo-src' ]
+12 verbose tarball /Users/kwpeters/.npm/sampleGitRepo-src/1.2.3/package.tgz
+13 verbose folder /Users/kwpeters/dev/sampleGitRepo-src
+14 verbose addLocalTarball adding from inside cache /Users/kwpeters/.npm/sampleGitRepo-src/1.2.3/package.tgz
+15 verbose correctMkdir /Users/kwpeters/.npm correctMkdir not in flight; initializing
+16 silly cache afterAdd sampleGitRepo-src@1.2.3
+17 verbose afterAdd /Users/kwpeters/.npm/sampleGitRepo-src/1.2.3/package/package.json not in flight; writing
+18 verbose correctMkdir /Users/kwpeters/.npm correctMkdir not in flight; initializing
+19 verbose afterAdd /Users/kwpeters/.npm/sampleGitRepo-src/1.2.3/package/package.json written
+20 verbose exit [ 0, true ]
+21 verbose stack Error: write EPIPE
+21 verbose stack     at exports._errnoException (util.js:1018:11)
+21 verbose stack     at WriteWrap.afterWrite (net.js:800:14)
+22 verbose cwd /Users/kwpeters/dev/sampleGitRepo-src
+23 error Darwin 17.2.0
+24 error argv "/Users/kwpeters/.nvm/versions/node/v6.11.1/bin/node" "/Users/kwpeters/.nvm/versions/node/v6.11.1/bin/npm" "pack"
+25 error node v6.11.1
+26 error npm  v3.10.10
+27 error code EPIPE
+28 error errno EPIPE
+29 error syscall write
+30 error write EPIPE
+31 error If you need help, you may report this error at:
+31 error     <https://github.com/npm/npm/issues>
+32 verbose exit [ 1, true ]
